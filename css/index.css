@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #18e73c;
+    --clr-accent: gold;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -76,6 +76,27 @@ strong { font-weight: var(--fw-bold) }
 }
 
 /* Buttons */
+.btn_download{
+    
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #303030;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        border:solid 2.5px white;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    
+   
+}
+.btn_download:hover {
+    background-color: gold;
+
+    color:#303030;
+    border: none;
+}
 
 .btn {
     display: inline-block;
@@ -133,7 +154,7 @@ h3 { font-size: var(--fs-h3) }
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
-
+section__subtitle--intro
 .section__subtitle--work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
@@ -370,6 +391,7 @@ header {
     }
     
     .section__subtitle--about {
+        color: #303030;
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
@@ -390,15 +412,15 @@ header {
 
 .my-work {
     /* background-color: var(--clr-dark); */
-    color: var(--clr-light);
+    color: gold;
     text-align: center;    
 }
 
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* gap:10px;
-    align-items: stretch; */
+    gap:10px;
+    align-items: stretch;
 }
 
 .portfolio__item {
@@ -411,6 +433,10 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+        width: 300px; 
+        height: 200px; 
+        object-fit: cover; 
+        display: block;
 }
 
 .portfolio__item:focus {

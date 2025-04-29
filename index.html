@@ -1,222 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Salma Mohamed Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <link rel="icon" href="./images//assets/logo.jpg" type="image/png">
 
-        <link rel="stylesheet" href="css/index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salma Mohamed Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
-    </head>
-    <body>
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./images/assets/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/assets/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 
-        <header>
-            <div class="logo">
-                <img src="./images/assets/logo-removebg-preview.png">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-      
-        <div id="particles-js"></div>
+</head>
 
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Salma Mohamed</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">A passionate software engineer. </p>
-            <img src="./images/assets/sal_ai.png" alt="a picture of salma Smith smiling" class="intro__img">
-        </section>
-        
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>Designed, programmed, built, deployed and maintained software using many different skills and tools. 
-                        I also helped in building UI/UX designs for freelance companies that later turned into a big project.
-                        I worked as a maintainer to application called Yetu app which was a startup that worked like uber.
-                    </p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>I maintained alot of e-commerce applications i.e Jiji. 
-                        I also worked as a developer to my own online store site where I specialized in selling women clothes.  </p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>WordPress</h3>
-                    <p>Wordpress was my first skill that I acquired as a developer and used to make a lot of websites for business people.
-                        It was actually the first technology that I learned as a developer.
-                    </p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Software  developer based in Minneapolis</p>
-           
-           <div class="about-me__body">
-            <p>I'm a Fullstack developer. I love Reactjs. I have serious passion for frontend development,
-                 UI effects, animations and creating intuitive, dynamic user experiences. I love working in a team because I believe that is where creativity resides.
-                 I am social and humble person with determination of finishing my assigned task. I am trustworthy person and never lie about any reality.I believe that 
-                 Everybody got their own path in this career but at the end of the day personality of the developer do matter in delivering the job,
-                 especially with a good attitute and being patient in every situation even though there is tention around.Therefore,I want to testify that
-                 am that person who can really stay humble and focused with the goal of finishing the project regardless of the ups and downs.
-                </p>
+<body>
 
-           </div>
-           
-           <img src="./images/assets/sally.png" alt="salma image" class="about-me__img">
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="https://boston-project.netlify.app/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="https://wizardly-swartz-e8c97f.netlify.app/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="https://www.purpink.co.ke/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/1050244/pexels-photo-1050244.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="https://dev-reallestate.pantheonsite.io/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/7746904/pexels-photo-7746904.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-                
-                  <!-- Portfolio item 05 -->
-                <a href="https://healthy-fitness-app.netlify.app/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-                  <!-- Portfolio item 06 -->
-                <a href="https://ocean-life-suppliers.netlify.app/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/1894346/pexels-photo-1894346.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-                   <!-- Portfolio item 07 -->
-                <a href="https://monalisa-ke.netlify.app/" class="portfolio__item">
-                    <img src="https://images.pexels.com/photos/15051708/pexels-photo-15051708.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" class="portfolio__img">
-                </a>
-            </div>
-        </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:salmawasee9@gmail.com" class="footer__link">salma.techy@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/salma-mohamed-kenyan/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://codesandbox.io/u/SalmaQueen">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-                </li>
-           
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/SalmaQueen">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-              
+    <header>
+        <div class="logo">
+            <img src="./images/assets/logo-removebg-preview.png">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
             </ul>
-        </footer>
-        
-        
-        <script src="js/index.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <script>
-          particlesJS("particles-js", {
+        </nav>
+    </header>
+
+
+    <div id="particles-js"></div>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Salma Mohamed</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro" style="color:black;">A passionate software engineer.
+        </p>
+
+
+        <img src="./images/assets/sal_ai.png" alt="a picture of salma Smith smiling" class="intro__img">
+
+        <a href="./images/assets/Salma_Mohamed.pdf" class="btn_download" download>Download Resume</a>
+
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Designed, programmed, built, deployed and maintained software using many different skills and tools.
+                    I also helped in building UI/UX designs for freelance companies that later turned into a big
+                    project.
+                    I worked as a maintainer to application called Yetu app which was a startup that worked like uber.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>I maintained alot of e-commerce applications i.e Jiji.
+                    I also worked as a developer to my own online store site where I specialized in selling women
+                    clothes. </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>Wordpress was my first skill that I acquired as a developer and used to make a lot of websites for
+                    business people.
+                    It was actually the first technology that I learned as a developer.
+                </p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Software developer based in Minneapolis</p>
+
+        <div class="about-me__body">
+            <p>I'm Salma Mohamed, a passionate Full Stack Developer with strong foundations in mobile app development
+                using Java and Flutter. I'm also highly conversant with Python, Ruby on Rails, and adaptable enough to
+                learn any programming language quickly.
+
+                My skill set extends into cloud computing with hands-on understanding of AWS, Azure, and Kubernetes.
+                While I’m confident across the stack, I have a serious passion for frontend development—especially when
+                it comes to crafting engaging UI effects, animations, and intuitive, dynamic user experiences. I
+                genuinely love working with React.js and creating interfaces that users enjoy interacting with.
+
+                Beyond the technical skills, I’m someone who thrives in collaborative team environments. I believe true
+                creativity flourishes when great minds work together. I’m a humble, social, and determined person,
+                always committed to completing the task at hand. I take pride in being trustworthy, transparent, and
+                focused—no matter how intense or challenging the situation might get.
+
+                At the end of the day, I believe that while technical skills get the job done, it’s the developer's
+                attitude, patience, and character that truly make the difference. I strive to bring those values to
+                every project I’m a part of.
+            </p>
+
+        </div>
+
+        <img src="./images/assets/sally.png" alt="salma image" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p style="color:white;">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="https://boston-project.netlify.app/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/436413/pexels-photo-436413.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="https://wizardly-swartz-e8c97f.netlify.app/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="https://www.purpink.co.ke/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/1050244/pexels-photo-1050244.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="https://dev-reallestate.pantheonsite.io/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/7746904/pexels-photo-7746904.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="https://healthy-fitness-app.netlify.app/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 06 -->
+            <a href="https://ocean-life-suppliers.netlify.app/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/1894346/pexels-photo-1894346.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolio item 07 -->
+            <a href="https://monalisa-ke.netlify.app/" class="portfolio__item">
+                <img src="https://images.pexels.com/photos/15051708/pexels-photo-15051708.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    alt="" class="portfolio__img">
+            </a>
+
+
+
+            <a href="https://jiji.co.ke/" class="portfolio__item">
+                <img src="./images/assets/jiji.png" alt="" class="portfolio__img">
+            </a>
+
+            <a href="https://64af1b08c35f5726f9ea2bc0--grand-cocada-b48e88.netlify.app/" class="portfolio__item">
+                <img src="./images/assets/microlend.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:salmawasee9@gmail.com" class="footer__link">salma.techy@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/salma-mohamed-kenyan/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codesandbox.io/u/SalmaQueen">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/SalmaQueen">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
             "particles": {
-              "number": {
-                "value": 100,
-                "density": {
-                  "enable": true,
-                  "value_area": 800
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": { "value": "#00ffd5" },
+                "shape": {
+                    "type": "circle",
+                    "stroke": { "width": 0, "color": "#000" }
+                },
+                "opacity": {
+                    https://www.purpink.co.ke/
+                        "value": 0.6,
+                    "random": true
+                },
+                "size": {
+                    "value": 2.5,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 120,
+                    "color": "#00ffd5",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "out_mode": "out"
                 }
-              },
-              "color": { "value": "#00ffd5" },
-              "shape": {
-                "type": "circle",
-                "stroke": { "width": 0, "color": "#000" }
-              },
-              "opacity": {
-                "value": 0.6,
-                "random": true
-              },
-              "size": {
-                "value": 2.5,
-                "random": true
-              },
-              "line_linked": {
-                "enable": true,
-                "distance": 120,
-                "color": "#00ffd5",
-                "opacity": 0.4,
-                "width": 1
-              },
-              "move": {
-                "enable": true,
-                "speed": 1,
-                "direction": "none",
-                "out_mode": "out"
-              }
             },
             "interactivity": {
-              "events": {
-                "onhover": { "enable": true, "mode": "grab" },
-                "onclick": { "enable": false }
-              },
-              "modes": {
-                "grab": {
-                  "distance": 150,
-                  "line_linked": { "opacity": 0.7 }
+                "events": {
+                    "onhover": { "enable": true, "mode": "grab" },
+                    "onclick": { "enable": false }
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 150,
+                        "line_linked": { "opacity": 0.7 }
+                    }
                 }
-              }
             },
             "retina_detect": true
-          });
-        </script>
-        
-    </body>
+        });
+    </script>
+
+</body>
+
 </html>
